@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prince Pious Omm Prakash</title>
+        <link rel="stylesheet" href="./index.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        "poppins-black": "poppins-black",
+                        "poppins-blackitalic": "poppins-blackitalic",
+                        "poppins-bold": "poppins-bold",
+                        "poppins-bolditalic": "poppins-bolditalic",
+                        "poppins-extrabold": "poppins-extrabold",
+                        "poppins-extralight": "poppins-extalight",
+                        "poppins-extralightitalic": "poppins-extalightitalic",
+                        "poppins-italic": "poppins-italic",
+                        "poppins-light": "poppins-light",
+                        "poppins-lightitalic": "poppins-lightitalic",
+                        "poppins-medium": "poppins-medium",
+                        "poppins-mediumitalic": "poppins-mediumitalic",
+                        "poppins-regular": "poppins-regular",
+                        "poppins-semibold": "poppins-semibold",
+                        "poppins-semibolditalic": "poppins-semibolditalic",
+                        "poppins-thin": "poppins-thin",
+                        "poppins-thinitalic": "poppins-thinitalic",
+                    },
+                    colors: {
+                        pinkbg: "#EFDAFF",
+                        darkpurple: "#370360",
+                        lightpurple: "#D7A5FF",
+                        white: "#FFFFFF",
+                        lightgray: "#F1F1F1",
+                    },
+                    extend: {},
+                },
+            };
+        </script>
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div
+            class="w-full top-0 sticky z-10 bg-darkpurple flex flex-row pt-2 pb-1 px-4 flex-grow lg:fixed lg:flex-col lg:w-fit lg:space-y-4 lg:top-8 lg:rounded-r-lg lg:px-2 lg:py-3"
+        >
+            <div class="flex-col grow hidden lg:flex">
+                <img
+                    id="home"
+                    class="grow h-10 lg:mb-5"
+                    src="./assets/logo.svg"
+                    alt=""
+                />
+            </div>
+            <div class="flex flex-col grow">
+                <img id="home" class="grow h-10" src="./assets/home.svg" alt="" />
+                <p
+                    class="w-full text-sm text-center font-poppins-medium grow mt-0.5 text-white"
+                >
+                    Home
+                </p>
+            </div>
+
+            <div class="flex flex-col grow">
+                <img id="home" class="grow h-10" src="./assets/about.svg" alt="" />
+                <p
+                    class="w-full text-sm text-center font-poppins-medium grow mt-0.5 text-white"
+                >
+                    About
+                </p>
+            </div>
+            <div class="flex flex-col grow">
+                <img id="home" class="grow h-10" src="./assets/portfolio.svg" alt="" />
+                <p
+                    class="w-full text-sm text-center font-poppins-medium grow mt-0.5 text-white"
+                >
+                    Portfolio
+                </p>
+            </div>
+            <div class="flex flex-col grow">
+                <img id="home" class="grow h-10" src="./assets/skills.svg" alt="" />
+                <p
+                    class="w-full text-sm text-center font-poppins-medium grow mt-0.5 text-white"
+                >
+                    Skills
+                </p>
+            </div>
+            <div class="flex flex-col grow">
+                <img id="home" class="grow h-10" src="./assets/contact.svg" alt="" />
+                <p
+                    class="w-full text-sm text-center font-poppins-medium grow mt-0.5 text-white"
+                >
+                    Contact
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-pinkbg pt-3 lg:px-32 lg:pt-0">
+            <!-- Hero Sectioon -->
+            <section class="relative flex flex-col md:flex-row">
+                <div class="flex flex-col md:my-auto">
+                    <p
+                        class="w-full text-center mb-1 px-5 font-poppins-regular mx-auto md:text-left md:mb-1"
+                    >
+                        Hi!
+                    </p>
+                    <p
+                        class="w-fit mb-3 font-poppins-semibold text-3xl text-center mx-auto px-5 md:text-left md:mx-0"
+                    >
+                        I’m Prince Pious Omm Prakash an UI/UX Designer.
+                    </p>
+                    <p
+                        class="w-full font-poppins-regular text-base leading-5 text-center mx-auto px-5 md:text-left"
+                    >
+                        UI/UX Designer based in Bhubaneswar, India. I am
+                        designing with a clean and creative design in mind.
+                    </p>
+
+                    <div
+                        class="w-full px-5 flex flex-row h-10 mt-2 md:w-4/5 md:mt-4"
+                    >
+                        <p class="my-auto mr-3">Follow Me:</p>
+                        <img class="h-full grow" src="./assets/facebook.svg" alt="" />
+                        <img class="h-full grow" src="./assets/twiitter.svg" alt="" />
+                        <img class="h-full grow" src="./assets/instagram.svg" alt="" />
+                        <img class="h-full grow" src="./assets/telegram.svg" alt="" />
+                    </div>
+                    <div
+                        class="flex flex-row space-x-3 w-fit mt-4 mx-auto md:mr-auto md:ml-5"
+                    >
+                        <button
+                            class="py-2 px-3 text-white font-poppins-medium bg-darkpurple rounded-md"
+                        >
+                            Send Request
+                        </button>
+                        <button
+                            class="py-2 px-3 font-poppins-medium text-darkpurple rounded-md border-2"
+                        >
+                            Download CV
+                        </button>
+                    </div>
+                </div>
+                <img
+                    class="max-w-sm mx-auto max-h-sm w-full"
+                    src="./assets/heroimg.svg"
+                    alt=""
+                />
+            </section>
+
+            <!-- Project Preview -->
+            <section
+                class="relative flex flex-col-reverse m-4 rounded-xl pb-5 p-1 md:flex-row-reverse bg-darkpurple md:pb-1"
+            >
+                <div class="flex flex-col md:my-auto">
+                    <div
+                        class="flex flex-row space-x-0 px-5 grow w-fit mx-auto mb-5 md:space-x-5 md:mr-auto md:ml-0"
+                    >
+                        <div class="flex flex-col w-fit">
+                            <p
+                                class="text-white font-poppins-bold w-full text-center text-5xl h-10 md:text-left"
+                            >
+                                10+
+                            </p>
+                            <p
+                                class="w-full text-sm font-poppins-medium grow mt-1.5 text-center text-white md:text-left"
+                            >
+                                Completed Projects
+                            </p>
+                        </div>
+                        <div class="flex flex-col w-1/2 pr-3">
+                            <img class="w-32 h-10" src="./assets/rating.svg" alt="" />
+                            <p
+                                class="w-full text-sm font-poppins-medium grow mt-1.5 text-white text-center md:text-left"
+                            >
+                                Positive Reviews
+                            </p>
+                        </div>
+                    </div>
+                    <p
+                        class="w-full mb-3 font-poppins-bold text-3xl text-lightpurple text-center mx-auto px-5 md:text-left"
+                    >
+                        Glad to Help You!
+                    </p>
+                    <p
+                        class="w-full font-poppins-regular text-base text-white leading-5 text-center mx-auto px-5 md:text-left"
+                    >
+                        As a UI/UX designer, I'm very keen on learning new and
+                        creative designs, wireframing, and prototyping
+                        techniques.
+                    </p>
+                </div>
+                <img
+                    class="max-w-sm mx-auto max-h-sm w-full"
+                    src="./assets/designillustration.png"
+                    alt=""
+                />
+            </section>
+
+            <!-- Why Hire me -->
+            <p class="w-fit font-poppins-semibold text-4xl mx-auto py-10">
+                Why Hire me?
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col space-y-3 mb-5 md:pt-10">
+                    <img class="pr-2 h-20" src="./assets/communicative.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-16 text-center lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3 mb-5 md:pt-10">
+                    <img class="pr-2 h-20" src="./assets/proffesional.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Professional
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-16 text-center lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3 mb-5 md:pt-10">
+                    <img class="pr-2 h-20" src="./assets/collaborative.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Collaborative
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-16 text-center lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3 md:pt-10">
+                    <img class="pr-2 h-20" src="./assets/favourite.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Client's Favourite
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-16 text-center lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="flex flex-row px-5">
+                <p
+                    class="w-fit font-poppins-semibold text-4xl mr-auto py-10"
+                >
+                    Portfolio
+                </p>
+                <p class="w-fit font-poppins-light text-2xl ml-auto py-10">
+                    See More
+                </p>
+            </div>
+            <div
+                class="grid px-10 grid-cols-1 md:grid-cols-3 md:mb-10 lg:grid-cols-4"
+            >
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work1.svg"
+                    alt=""
+                />
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work2.svg"
+                    alt=""
+                />
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work3.svg"
+                    alt=""
+                />
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work4.svg"
+                    alt=""
+                />
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work5.svg"
+                    alt=""
+                />
+                <img
+                    class="mx-auto hover:scale-110 ease-in-out duration-1000"
+                    src="./assets/work6.svg"
+                    alt=""
+                />
+            </div>
+
+            <!-- Testimonials -->
+            <div
+                class="flex flex-col space-y-3 mb-10 mx-0.5 py-10 rounded-xl bg-darkpurple md:mx-5"
+            >
+                <p
+                    class="w-fit font-poppins-semibold text-white text-4xl mx-auto"
+                >
+                    Testimonials
+                </p>
+                <p
+                    class="w-fit font-poppins-light text-sm text-lightpurple mx-auto"
+                >
+                    I’m Loved By Users And Clients Worldwide
+                </p>
+                <div
+                    class="grid w-auto mx-1 grid-cols-1 md:grid-cols-2 md:mx-10"
+                >
+                    <div class="p-2 m-2 rounded-lg bg-white md:p-5">
+                        <p class="font-poppins-light mb-3 leading-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nisl vitae, suspendisse vitae, lorem
+                            suspendisse semper vel mattis.
+                        </p>
+                        <div class="flex flex-row space-x-2 h-10">
+                            <img src="./assets/user.svg" alt="" />
+                            <p
+                                class="font-poppins-semibold w-auto text-center h-fit my-auto grow text-sm"
+                            >
+                                Swoyam Siddharth
+                            </p>
+                            <p
+                                class="font-poppins-bold w-fit text-center h-fit my-auto text-sm"
+                            >
+                                4.5
+                            </p>
+                            <img class="w-32" src="./assets/rating.svg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="p-2 m-2 rounded-lg bg-white md:p-5">
+                        <p class="font-poppins-light mb-3 leading-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nisl vitae, suspendisse vitae, lorem
+                            suspendisse semper vel mattis.
+                        </p>
+                        <div class="flex flex-row space-x-2 h-10">
+                            <img src="./assets//user.svg" alt="" />
+                            <p
+                                class="font-poppins-semibold w-auto text-center h-fit my-auto grow text-sm"
+                            >
+                                Swoyam Siddharth
+                            </p>
+                            <p
+                                class="font-poppins-bold w-fit text-center h-fit my-auto text-sm"
+                            >
+                                4.5
+                            </p>
+                            <img class="w-32" src="./assets/rating.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <p class="w-fit font-poppins-semibold text-4xl mx-auto py-5">
+                Skills
+            </p>
+            <p
+                class="w-4/5 font-poppins-regular text-center mb-8 text-base mx-auto"
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                vitae, suspendisse vitae, lorem suspendisse semper vel mattis.
+            </p>
+            <div class="grid w-auto mx-10 grid-cols-3 md:grid-cols-5">
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/html.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/css.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/figma.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/illustrator.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/photoshop.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/github.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="assets/cprog.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/c++.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/premiere.svg"
+                    alt=""
+                />
+                <img
+                    class="p-4 bg-lightpurple rounded-xl drop-shadow-2xl h-20 mb-10 w-20 mx-auto"
+                    src="./assets/aftereffects.svg"
+                    alt=""
+                />
+            </div>
+
+            <!-- Interested in working with me -->
+            <div
+                class="flex flex-col mb-10 p-10 mx-1 rounded-xl bg-darkpurple md:flex-row"
+            >
+                <p
+                    class="text-white font-poppins-bold text-2xl text-center mb-8 md:text-3xl md:font-poppins-semibold md:w-1/2 md:text-left md:mb-0"
+                >
+                    Interested in Working with me
+                </p>
+                <button
+                    class="py-3 w-44 mx-auto bg-white text-darkpurple h-fit rounded-md font-poppins-bold md:mr-0 md:ml-auto md:my-auto"
+                >
+                    Email Me
+                </button>
+            </div>
+
+            <!-- Blogs -->
+            <div class="flex flex-row px-5">
+                <p
+                    class="w-fit font-poppins-semibold text-4xl mr-auto py-10"
+                >
+                    Blog
+                </p>
+                <p class="w-fit font-poppins-light text-2xl ml-auto py-10">
+                    See More
+                </p>
+            </div>
+            <div
+                class="grid mx-10 grid-cols-1 md:grid-cols-3 lg:grid-cols-4"
+            >
+                <div
+                    class="flex flex-col p-4 bg-white rounded-md space-y-3 mb-5 mx-2 md:pt-10"
+                >
+                    <img class="max-h-44" src="./assets/blog.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-0 text-center leading-5 lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col p-4 bg-white rounded-md space-y-3 mb-5 mx-2 md:pt-10"
+                >
+                    <img class="max-h-44" src="./assets/blog.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-0 text-center leading-5 lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col p-4 bg-white rounded-md space-y-3 mb-5 mx-2 md:pt-10"
+                >
+                    <img class="max-h-44" src="./assets/blog.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-0 text-center leading-5 lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col p-4 bg-white rounded-md space-y-3 mb-5 mx-2 md:pt-10"
+                >
+                    <img class="max-h-44" src="./assets/blog.svg" alt="" />
+                    <p class="font-poppins-medium w-full text-center">
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p
+                        class="font-poppins-light w-full px-0 text-center leading-5 lg:px-0"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet{" "}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer
+            class="bg-lightgray py-12 flex-col flex space-y-3 md:flex-row md:space-y-0 md:px-16"
+        >
+            <div class="flex flex-row mx-auto md:w-1/3">
+                <img class="mr-1" src="./assets/mail.svg" alt="" />
+                <p class="font-poppins-regular">b221042@iiit-bh.ac.in</p>
+            </div>
+            <p class="w-full text-center font-poppins-regular md:w-1/3">
+                © Copyright 2022 | Prince
+            </p>
+            <div class="flex flex-row space-x-5 mx-auto md:w-1/3 ml-auto">
+                <img class=" h-5 md:ml-auto" src="./assets/instagram2.svg" alt="" />
+                <img class=" h-5 " src="assets/telegram2.svg" alt="" />
+            </div>
+        </footer>
+    </body>
+</html>
